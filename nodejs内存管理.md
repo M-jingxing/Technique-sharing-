@@ -15,6 +15,7 @@
 
 但是V8也提供了启动参数，来打开部分限制，
 > node --max-old-space-size=1024 main.js // 设置老生代内存 单位MB
+
 > node --max-new-space-size=1024 main.js // 设置新生代内存 单位KB
 
 ## V8 的垃圾回收机制 （GC）
